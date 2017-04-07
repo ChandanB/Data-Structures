@@ -11,7 +11,11 @@
 
 **Challenges:**
 <<<<<<< HEAD
+<<<<<<< HEAD
 - implement `BinaryNode` class with the following properties and instance methods:
+=======
+- implement `BinaryNode` class with the following properties and instance methods using [binary search tree starter code]:
+>>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
 =======
 - implement `BinaryNode` class with the following properties and instance methods using [binary search tree starter code]:
 >>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
@@ -21,7 +25,11 @@
     - `is_leaf` - check if the node is a leaf (has no children)
     - `is_internal` - check if the node is internal (has at least one child)
 <<<<<<< HEAD
+<<<<<<< HEAD
 - implement `BinarySearchTree` class using `BinaryNode` objects with the following properties and instance methods:
+=======
+- implement `BinarySearchTree` class using `BinaryNode` objects with the following properties and instance methods using [binary search tree starter code]:
+>>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
 =======
 - implement `BinarySearchTree` class using `BinaryNode` objects with the following properties and instance methods using [binary search tree starter code]:
 >>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
@@ -31,8 +39,12 @@
     - `search(data)` - check if a node with `data` is present in the tree
     - `delete(data)` - remove the node with `data` from the tree
 <<<<<<< HEAD
+<<<<<<< HEAD
 - write your own unit tests for your `BinarySearchTree` class
     - include test cases for each class instance method
+=======
+- run `pytest test_binarysearchtree.py` to run the [binary search tree unit tests] and fix any failures
+>>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
 =======
 - run `pytest test_binarysearchtree.py` to run the [binary search tree unit tests] and fix any failures
 >>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
@@ -55,6 +67,12 @@
 [visualgo bst]: https://visualgo.net/bst
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+[binary search tree starter code]: source/binarysearchtree.py
+[binary search tree unit tests]: source/test_binarysearchtree.py
+
+>>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
 =======
 [binary search tree starter code]: source/binarysearchtree.py
 [binary search tree unit tests]: source/test_binarysearchtree.py
