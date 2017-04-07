@@ -10,20 +10,32 @@
 - play with VisuAlgo's [interactive binary search tree visualization][visualgo bst]
 
 **Challenges:**
+<<<<<<< HEAD
 - implement `BinaryNode` class with the following properties and instance methods:
+=======
+- implement `BinaryNode` class with the following properties and instance methods using [binary search tree starter code]:
+>>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
     - `data` - the node's data
     - `left` - the node's left child, if any
     - `right` - the node's right child, if any
     - `is_leaf` - check if the node is a leaf (has no children)
     - `is_internal` - check if the node is internal (has at least one child)
+<<<<<<< HEAD
 - implement `BinarySearchTree` class using `BinaryNode` objects with the following properties and instance methods:
+=======
+- implement `BinarySearchTree` class using `BinaryNode` objects with the following properties and instance methods using [binary search tree starter code]:
+>>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
     - `size` - property that tracks the number of nodes in constant time
     - `is_empty` - check if the tree is empty
     - `insert(data)` - insert a new node with `data` in order in the tree
     - `search(data)` - check if a node with `data` is present in the tree
     - `delete(data)` - remove the node with `data` from the tree
+<<<<<<< HEAD
 - write your own unit tests for your `BinarySearchTree` class
     - include test cases for each class instance method
+=======
+- run `pytest test_binarysearchtree.py` to run the [binary search tree unit tests] and fix any failures
+>>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
 - annotate all class instance methods with running time complexity analysis
 
 **Stretch Challenges:**
@@ -42,5 +54,11 @@
 [tree video lecture]: https://www.youtube.com/watch?v=Yr3y78d2KYI
 [visualgo bst]: https://visualgo.net/bst
 
+<<<<<<< HEAD
+=======
+[binary search tree starter code]: source/binarysearchtree.py
+[binary search tree unit tests]: source/test_binarysearchtree.py
+
+>>>>>>> 2b173315f56daddf18b38c0d1bb12357c21258ab
 [trees and mazes]: http://make.sc/oa-trees-and-mazes
 [Online Academy]: https://www.makeschool.com/academy
